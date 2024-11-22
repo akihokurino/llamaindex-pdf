@@ -1,5 +1,8 @@
 SHELL := /bin/bash
 
+venv:
+	python3 -m venv venv
+
 vendor:
 	pip install -r requirements.txt
 
